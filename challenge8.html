@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Ass15f</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+           .image-container {
+            position: relative;
+           display: inline-block;
+           margin: 20px;
+           }
+
+            img {
+                   display: block;
+                   width: 300px;
+                   height: 300px;
+                  }
+            .overlay {
+                   position: absolute;
+                   top: 210px;
+                   width: 300px; /* Adjust this value to control the width of the transparent area */
+                   height: 100px;
+                   background-color: rgba(255, 255, 255, 0.6); /* Adjust the color and opacity as needed */
+                   z-index: 1; /* Ensure the overlay appears on top of the image */
+                 }
+                  button{
+                        display: inline-block;
+                        margin-top: 40px;
+                        margin-left: 110px;
+                        font-family: Arial;
+                        font-weight: 600;
+                        padding: 5px 10px;
+                        background-color: white;
+                        border: 1px solid black;
+                    }
+                  .two{
+                   display: inline-block;
+                position: absolute;
+                top: 0px;
+                left: 220px;
+                vertical-align: middle;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div class="image-container">
+            <img src="shirt.jpg.jpeg" alt="no"/>
+              <div class="two">
+            <p style="background-color: black;color: white;height: 20px;width: 80px;font-size: 15px;text-align: center">20% OFF</p>
+           </div>
+            <div class="overlay">
+                <button >Add to Cart</button>
+            </div>
+        </div>
+    </body>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .pagination{
+        display:flex;
+        align-items:center;
+    }
+    .a{
+        padding:10px;
+        border-radius:5px;
+        border:1px solid black;
+    }
+    .pagination a{
+        float:right;
+        padding:8px 16px;
+        color:indigo;
+    }
+    .b{
+        background-color: green;
+        color:white;
+        border:none;
+        padding:5px 10px;
+        cursor:pointer;
+    }
+    .b:hover{
+        padding:10px 20px;
+    }
+    .c{
+        background-color: green;
+        position:absolute;
+        border:none;
+        font-size:20px;
+        padding:10px 20px;
+        color:hite;
+        cursor:pointer;
+        text-decoration:none;
+        box-shadow:5px 5px 0px 2px lightgrey;
+        transition:all 0.1s ease;
+    }
+    .c:active{
+        box-shadow:none;
+        position:relative;
+        left:5px;top:5px;
+    }
+    .b1{
+        background-color: green;
+        color:white;
+        margin:10px;
+        padding:15px 30px;
+        border:none;
+    }
+    b1.hover{
+        padding:15px 40px;
+    }
+    
+    
+    
+</style>
+<body>
+    <p>4h.pagination</p>
+    <div class="pagination">
+        <a href="#"><button class="a">Back</button></a>
+        <a href="#">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        <a href="#">4</a>
+        <a href="#">5</a>
+        <a href="#"><button class="a">Next</button></a>
+    </div>
+    <br><br>
+    <p>4i.Strech</p>
+    <div style="width:600px;height:50px;">
+        <button class="b">Strech</button>
+        </div>
+        <br><br>
+    <p>3D .click</p>
+    <div style="width:600px;height:50px;">
+    <a href="#"><button class="c">Shadow</button></a>
+</div>
+<br><br>
+<div>
+<p>4k. Margin and Padding </p>
+        </div>
+        
+        <div style="display:flex;width: 500px;height: 100px;align-items: center">
+            <div style="width: 200px;height: 50px">
+                <button class="b1">One</button>
+            </div>
+             <div style="width: 200px;height: 50px">
+                <button class="b1">Two</button>
+            </div>
+            <div style="width: 200px;height: 50px">
+                <button class="b1">Three</button>
+            </div>
+        </div>
+        
+</body>
+</html>
